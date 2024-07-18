@@ -1,7 +1,11 @@
+import Header from "./components/Header"
+import Location from "./components/Location"
+
 function App() {
   return (
     <div className="App">
-      <h1>Testing</h1>
+      <Header />
+      <Location />
     </div>
   );
 }
